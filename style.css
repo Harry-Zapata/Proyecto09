@@ -1,0 +1,82 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #e0e8fd;
+}
+main{
+    width: 300px;
+    height: auto;
+    background: #ffffff;
+    border-radius: 20px;
+    text-align: center;
+}
+main .header__img{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+h1{
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: 800;
+    color: #1d274b;
+    margin: 10px 0 0 0;
+}
+.text{
+    font-family: system-ui;
+    font-size: 12px;
+    color: #989eb6;
+    font-weight: 600;
+    padding: 10px 30px;
+}
+.plan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f8f9fe;
+    border-radius: 20px;
+    margin: 20px;
+}
+.plan h2{
+    font-size: 13px;
+    font-family: system-ui;
+}
+.plan a:hover{
+    text-decoration: none;
+}
+button{
+    width: 80%;
+    border-radius: 10px;
+    height: 40px;
+    border: 0;
+    margin: 10px;
+    font-weight: 700;
+}
+button:hover{
+    cursor: pointer;
+}
+.procesar{
+    background: #382ae1;
+    color: #fff;
+}
+.procesar:hover{
+    opacity: .7;
+}
+.cancelar{
+    background: #faf9fe;
+    color: #7c8194;
+    margin-bottom: 30px;
+}
+.cancelar:hover{
+    color: #000;
+}
+.plan div{
+    padding: 0 10px ;
+}
