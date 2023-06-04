@@ -1,47 +1,42 @@
-* {
+
+*{
     padding: 0;
     margin: 0;
 }
-
-body {
+body{
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     background: #e0e8fd;
 }
-
-main {
+main{
     width: 300px;
     height: auto;
     background: #ffffff;
     border-radius: 20px;
     text-align: center;
 }
-
-main .header__img {
+main .header__img{
     width: 100%;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
-
-h1 {
+h1{
     font-size: 17px;
     font-family: sans-serif;
     font-weight: 800;
     color: #1d274b;
     margin: 10px 0 0 0;
 }
-
-.text {
+.text{
     font-family: system-ui;
     font-size: 12px;
     color: #989eb6;
     font-weight: 600;
     padding: 10px 30px;
 }
-
-.plan {
+.plan{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -49,21 +44,14 @@ h1 {
     border-radius: 20px;
     margin: 20px;
 }
-
-.plan h2 {
+.plan h2{
     font-size: 13px;
     font-family: system-ui;
 }
-
-.plan p {
-    color: #7c8194;
-}
-
-.plan a:hover {
+.plan a:hover{
     text-decoration: none;
 }
-
-button {
+button{
     width: 80%;
     border-radius: 10px;
     height: 40px;
@@ -71,40 +59,24 @@ button {
     margin: 10px;
     font-weight: 700;
 }
-
-button:hover {
+button:hover{
     cursor: pointer;
 }
-
-.procesar {
+.procesar{
     background: #382ae1;
     color: #fff;
 }
-
-.procesar:hover {
+.procesar:hover{
     opacity: .7;
 }
-
-.cancelar {
+.cancelar{
     background: #faf9fe;
     color: #7c8194;
     margin-bottom: 30px;
 }
-
-.cancelar:hover {
+.cancelar:hover{
     color: #000;
 }
-
-.plan div {
-    padding: 0 10px;
-}
-
-@media(min-width:1400px) {
-    main {
-        width: 25%;
-        height: 80vh;
-    }
-    h1,.text,.plan{
-        margin: 25px 0;
-    }
+.plan div{
+    padding: 0 10px ;
 }
